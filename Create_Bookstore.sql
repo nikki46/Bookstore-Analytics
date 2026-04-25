@@ -1,7 +1,4 @@
--- Bookstore Analytics: Schema
--- Target: SQLite / PostgreSQL compatible
--- Run order: 01_schema.sql -> 02_seed.sql -> 03_analytics.sql
-
+--drop tables
 DROP TABLE IF EXISTS order_items;
 DROP TABLE IF EXISTS orders;
 DROP TABLE IF EXISTS reviews;
@@ -10,7 +7,7 @@ DROP TABLE IF EXISTS authors;
 DROP TABLE IF EXISTS publishers;
 DROP TABLE IF EXISTS genres;
 DROP TABLE IF EXISTS customers;
-
+--create tables
 CREATE TABLE authors (
     author_id     INTEGER PRIMARY KEY,
     full_name     TEXT NOT NULL,
