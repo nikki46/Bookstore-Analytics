@@ -1,5 +1,5 @@
--- Bookstore Analytics: Seed Data
--- 12 authors, 6 publishers, 8 genres, 20 books, 15 customers, ~50 orders, ~90 line items, ~40 reviews
+--populate database
+--12 authors,6 publishers, 8 genres, 20 books, 15 customers, ~50 orders, ~90 line items, ~40 reviews
 
 INSERT INTO genres (genre_id, name) VALUES
 (1, 'Fiction'),
@@ -13,11 +13,11 @@ INSERT INTO genres (genre_id, name) VALUES
 
 INSERT INTO publishers (publisher_id, name, country) VALUES
 (1, 'Penguin Random House', 'USA'),
-(2, 'HarperCollins',        'USA'),
-(3, 'Hachette',              'France'),
-(4, 'Macmillan',              'UK'),
-(5, 'Tor Books',              'USA'),
-(6, 'Bloomsbury',             'UK');
+(2, 'HarperCollins','USA'),
+(3, 'Hachette','France'),
+(4, 'Macmillan','UK'),
+(5, 'Tor Books','USA'),
+(6, 'Bloomsbury','UK');
 
 INSERT INTO authors (author_id, full_name, country, birth_year) VALUES
 (1,  'Margaret Hale',     'UK',     1971),
