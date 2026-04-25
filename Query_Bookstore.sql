@@ -1,6 +1,4 @@
--- Bookstore Analytics: SELECT queries for data analytics
--- Each query stands alone. Run individually to inspect results.
-
+--data analytics
 -- ============================================================================
 -- 1. BOOK POPULARITY: top 10 best-sellers by units sold
 -- ============================================================================
