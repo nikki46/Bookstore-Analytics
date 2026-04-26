@@ -6,11 +6,11 @@ A small data-analytics-focused SQL project simulating a bookstore. Select querie
 
 | File | Purpose |
 |---|---|
-| [01_schema.sql](Create_Bookstore.sql) | DDL: 8 tables (books, authors, publishers, genres, customers, orders, order_items, reviews) + indexes |
-| [02_seed.sql](Insert_Bookstore.sql) | ~20 books, 15 customers, 50 orders, 90 line items, 44 reviews |
-| [03_analytics.sql](Query_Bookstore.sql) | 15 analytics queries — book popularity, genre/author leaderboards, MoM growth, margin, etc. |
+| [Create_Bookstore.sql](Create_Bookstore.sql) | DDL: 8 tables (books, authors, publishers, genres, customers, orders, order_items, reviews) + indexes |
+| [Insert_Bookstore.sql](Insert_Bookstore.sql) | ~20 books, 15 customers, 50 orders, 90 line items, 44 reviews |
+| [Query_Bookstore.sql](Query_Bookstore.sql) | 15 analytics queries — book popularity, genre/author leaderboards, MoM growth, margin, etc. |
 
-## Query catalog (in [03_analytics.sql](03_analytics.sql))
+## Query catalog (in [Query_Bookstore.sql](Query_Bookstore.sql))
 
 1. Top 10 best-sellers by units
 2. Top books by revenue + gross profit
